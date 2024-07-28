@@ -178,3 +178,54 @@ export const featureAccordionData = [
     image: "./features/4.webp"
   }
 ]
+
+export const testimonialsData = [
+  {
+    text: "Vitamin I did a great job, I am very happy with it. Very patient and responds quickly to requests as I had several alterations we wanted to make. Definitely recommended!",
+    salutation: "Thanks again.",
+    name: "Donnie Russell",
+    position: "Influencer",
+    stars: 4.8,
+    icon: "./testimonials/1.svg"
+  },
+  {
+    text: "Vitamin I did a great job, I am very happy with it. Very patient and responds quickly to requests as I had several alterations we wanted to make. Definitely recommended!",
+    salutation: "Thanks again.",
+    name: "Donnie Russell",
+    position: "Influencer",
+    stars: 4.8,
+    icon: "./testimonials/1.svg"
+  },
+  {
+    text: "Vitamin I did a great job, I am very happy with it. Very patient and responds quickly to requests as I had several alterations we wanted to make. Definitely recommended!",
+    salutation: "Thanks again.",
+    name: "Donnie Russell",
+    position: "Influencer",
+    stars: 4.8,
+    icon: "./testimonials/1.svg"
+  },
+  {
+    text: "Vitamin I did a great job, I am very happy with it. Very patient and responds quickly to requests as I had several alterations we wanted to make. Definitely recommended!",
+    salutation: "Thanks again.",
+    name: "Donnie Russell",
+    position: "Influencer",
+    stars: 4.8,
+    icon: "./testimonials/1.svg"
+  },
+  {
+    text: "Vitamin I did a great job, I am very happy with it. Very patient and responds quickly to requests as I had several alterations we wanted to make. Definitely recommended!",
+    salutation: "Thanks again.",
+    name: "Donnie Russell",
+    position: "Influencer",
+    stars: 4.8,
+    icon: "./testimonials/1.svg"
+  },
+  {
+    text: "Vitamin I did a great job, I am very happy with it. Very patient and responds quickly to requests as I had several alterations we wanted to make. Definitely recommended!",
+    salutation: "Thanks again.",
+    name: "Donnie Russell",
+    position: "Influencer",
+    stars: 4.8,
+    icon: "./testimonials/1.svg"
+  }
+]
