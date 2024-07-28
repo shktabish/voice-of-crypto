@@ -25,9 +25,11 @@ const MarqueeElement = ({ rotate = "rotate-2", color="bg-black", height = "h-1/2
   return (
     <div className="relative">
       <div className={`absolute block inset-x-0 ${position} ${height} ${color} z-10`}></div>
-      <Marquee className={`bg-accent ${rotate} py-2 relative z-20`} gradient={false}>
-        {elements}
-      </Marquee>
+      <div className={`${rotate} relative z-50`} >
+        <Marquee className={`bg-accent py-2 relative z-20`} gradient={false}>
+          {elements}
+        </Marquee>
+      </div>
     </div>
   )
 }
