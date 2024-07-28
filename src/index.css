@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white font-Kodchasan overflow-x-hidden;
+}
+
+.clip-polygon {
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 0 83%);
+}
+
+/* .box-shadow:hover {
+  box-shadow: 1px -23px 24px 7px rgba(158,223,17,0.37);
+  -webkit-box-shadow: 1px -23px 24px 7px rgba(158,223,17,0.37);
+  -moz-box-shadow: 1px -23px 24px 7px rgba(158,223,17,0.37);
+} */
