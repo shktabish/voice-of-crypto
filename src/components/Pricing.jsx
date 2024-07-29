@@ -12,7 +12,7 @@ const Pricing = ({ name, price, features }) => {
             features.map((feature, index) => {
               return <li key={index} className='flex items-center gap-2' >
                 <IoIosCheckmarkCircle className='fill-black' />
-                <div className="text-lg font-semibold" >{feature}</div>
+                <div className="max-sm:text-sm text-base font-semibold" >{feature}</div>
               </li>
             })
           }

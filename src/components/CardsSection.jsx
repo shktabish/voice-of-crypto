@@ -52,7 +52,7 @@ export const ConnectCard = () => {
           <div className='flex flex-col justify-center w-[35rem] gap-10 pl-10 max-sm:p-4' >
             <div className='max-sm:text-2xl max-lg:text-4xl max-xl:text-3xl text-5xl font-bold' >Let’s <span className='text-accent' >Connect</span> there</div>
             <div className='max-sm:text-base max-lg:text-xl max-xl:text-lg text-2xl font-bold' >Are you a web3 influencer and would like to get listed on our platform</div>
-            <Button text="Apply Now" />
+            <Button text="Apply Now" link="https://docs.google.com/forms/d/e/1FAIpQLSfsd-c9bhaiHNVgqJpZFub4B-0NmTkmuPmS9SneVTyq5AHuEA/viewform" />
           </div>
           <div className='max-lg:hidden h-full aspect-square bg-accent rounded-3xl relative' >
             <img src="./rabbit.svg" alt="rabbit icon" className='absolute bottom-16 -right-10 scale-[1.4]' />

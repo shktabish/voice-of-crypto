@@ -1,9 +1,15 @@
 import { FaFacebook, FaXTwitter, FaInstagram, FaLinkedin } from "react-icons/fa6"
 import { Link } from "react-router-dom"
+import { Link as SmoothLink } from "react-scroll";
 
 const Footer = () => {
     const productFaaturs = ["Discover", "Connect", "Analytics", "Payments"]
-    const quickLinks = ["Home", "Pricing"]
+
+    const quickLinks = [
+        {title: "Home", to: "hero"},
+        {title: "Pricing", to: "pricing"}
+    ]
+
     const socialMediaLinks = [
         {icon: <FaFacebook className='text-2xl font-medium my-4 fill-accent' />, link: "https://www.facebook.com/people/Voice-Of-Crypto-VOC/100083250516435/"},
         {icon: <FaXTwitter className='text-2xl font-medium my-4 fill-accent' />, link: "https://x.com/VoiceofCrypto2"},
@@ -16,7 +22,9 @@ const Footer = () => {
     })
 
     const quickLinksList = quickLinks.map((link, index) => {
-        return <li key={index} className='max-sm:text-sm text-lg font-medium my-4' >{link}</li>
+        return <SmoothLink smooth={true} to={link.to} key={index} className="cursor-pointer" >
+            <li className="className='max-sm:text-sm text-lg font-medium my-4 w-max hover:border-b-2 hover:border-accent" >{link.title}</li>
+        </SmoothLink>
     })
 
     const socialMediaLinksList = socialMediaLinks.map((socialMedia, index) => {
