@@ -1,7 +1,7 @@
 export const plans = [
   {
       name: "Basic",
-      price: "$99",
+      price: "$89",
       features: [
           "100 Influencer Contact Unlocks",
           "20 Active Campaigns",
@@ -15,7 +15,7 @@ export const plans = [
   },
   {
       name: "Professional",
-      price: "$299",
+      price: "$199",
       features: [
           "250 Influencer Contact Unlocks",
           "50 Active Campaigns",
@@ -29,7 +29,7 @@ export const plans = [
   },
   {
       name: "Advanced",
-      price: "$499",
+      price: "$549",
       features: [
           "Unlimited Influencer Contact Unlocks",
           "Unlimited Active Campaigns",
@@ -119,7 +119,7 @@ export const features = [
     icon: "./okay.svg"
   },
   {
-    title: "Convenient Crypto Payments and Airdrops (Coming soon)",
+    title: "Convenient Crypto Payments and Airdrops (Beta)",
     description: "Pay influencers using Crypto, NFT or Airdrops",
     icon: "./okay.svg"
   }
@@ -164,7 +164,7 @@ export const featureAccordionData = [
   },
   {
     id: 4,
-    question: "Convenient Crypto Payments and Airdrops (Coming soon)",
+    question: "Convenient Crypto Payments and Airdrops (Beta)",
     answer: "Pay Influencers using Crypto, NFT or Airdrops",
     image: "./features/4.webp"
   }
