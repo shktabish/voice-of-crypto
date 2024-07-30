@@ -148,7 +148,7 @@ export const featureAccordionData = [
     id: 1,
     question: "Uncover the Perfect Influencers",
     answer: "Efficiently discover influencers who align with your brand’s values",
-    image: "./features/1.webp"
+    image: "./features/1.png"
   },
   {
     id: 2,

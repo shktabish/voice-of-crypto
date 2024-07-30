@@ -25,7 +25,7 @@ const Discover = () => {
             <img 
               src={pageData.image} 
               alt="discover image" 
-              className='float-start' 
+              className='float-start rounded-3xl' 
               width="500" 
               height="300" 
               onLoad={() => setIsLoading(false)} 
