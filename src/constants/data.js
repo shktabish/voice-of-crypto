@@ -212,3 +212,54 @@ export const testimonialsData = [
     icon: "./testimonials/1.svg"
   }
 ]
+
+export const pagesData = [
+  {
+    title: "discover",
+    heading: "Uncover the Perfect Influencers",
+    text: [
+      "In the ever-evolving world of web 3 and crypto, finding the right influencers for your brand can be a daunting task. That’s where our AI-powered search tool comes in. Powered by state-of-the-art algorithms, our platform revolutionizes the way you discover influencers, making it efficient, precise, and hassle-free.",
+      "Our advanced AI algorithms meticulously scan the vast web 3 landscape, sifting through a multitude of influencers to find the perfect match for your brand. Whether you’re targeting micro, macro, or nano influencers, our tool has got you covered. We understand that influencer marketing is not one-size-fits-all, and that’s why we provide a comprehensive range of options to suit your specific needs.",
+      "With our advanced filtering options, you can precisely target influencers based on a range of criteria. Say goodbye to the guesswork and let our tool do the heavy lifting for you. Our platform allows you to narrow down your search based on audience demographics, niche expertise, engagement rates, geographic location, and much more. This level of granularity ensures that you can connect with influencers who are not only relevant to your industry but also resonate with your target audience.",
+      "No more sifting through endless profiles or manually vetting influencers. Our AI-powered search tool brings efficiency to the forefront, saving you valuable time and effort. Focus on what truly matters: building authentic connections with influencers who align with your brand’s values and goals.",
+      "But we don’t stop at just finding influencers. Our tool goes beyond discovery by providing you with detailed insights into each influencer’s performance. Gain a deeper understanding of their engagement rates, follower growth, audience demographics, and previous brand collaborations. Armed with this data, you can make informed decisions and forge partnerships that yield the best results for your brand.",
+      "Influencer marketing is about more than just numbers. It’s about finding influencers who genuinely believe in your brand and can authentically communicate your message to their followers. Our AI-powered search tool takes the guesswork out of the equation and allows you to discover influencers who align with your brand’s values, voice, and identity. Say hello to impactful collaborations and campaigns that resonate with your target audience.",
+      "Experience the power of our AI-powered influencer search tool today. Schedule a demo and unlock the potential of influencer marketing in the web 3 and crypto space. Let us help you find the perfect influencers who will elevate your brand and drive tangible results."
+    ]
+  },
+  {
+    title: "connect",
+    heading: "Seamless Connection and Collaboration",
+    text: [
+      "In today’s fast-paced digital landscape, building connections with influencers is crucial for successful marketing campaigns. Our platform not only streamlines the process of finding the ideal influencers but also ensures seamless communication and collaboration every step of the way.",
+      "Gone are the days of manually searching for contact information and sending countless emails. Our platform simplifies the process by enabling you to reach out to influencers directly from within the tool. With just a few clicks, you can initiate conversations, discuss campaign details, and establish a rapport with influencers who align with your brand.",
+      "Effortlessly negotiate terms and finalize agreements within the platform itself. Our intuitive interface allows you to have transparent discussions about compensation, deliverables, timelines, and any other requirements. No more back-and-forth emails or confusion. Collaborating with influencers becomes a smooth and efficient process, ensuring everyone is on the same page.",
+      "Building authentic relationships with influencers is the key to successful influencer marketing. Our platform recognizes this and provides the necessary tools to foster meaningful connections. Engage in ongoing conversations, provide feedback, and nurture partnerships that go beyond a one-off campaign. Establish trust, loyalty, and a sense of collaboration with influencers who become true brand advocates.",
+      "Save time and resources by centralizing all communication within our platform. Keep track of conversations, campaign details, and important documents in one place. Say goodbye to scattered email threads and misplaced documents. Our platform keeps everything organized and easily accessible, enabling you to focus on building relationships and driving impactful campaigns.",
+      "Influencer marketing is about more than transactional interactions; it’s about fostering genuine connections. With our seamless connection and collaboration features, you can streamline your influencer partnerships and build lasting relationships that elevate your brand. Experience the ease and efficiency of our platform today and witness the transformative power of authentic influencer collaborations."
+    ]
+  },
+  {
+    title: "analytics",
+    heading: "Efficiency and Effectiveness Reporting",
+    text: [
+      "In the world of influencer marketing, data-driven decision-making is crucial for success. Our platform offers comprehensive reporting and analytics, empowering you to track and optimize the effectiveness of your campaigns with ease.",
+      "Gone are the days of relying on guesswork and assumptions. Our tool provides you with valuable insights and key performance indicators (KPIs) to evaluate the impact of your influencer marketing efforts. Monitor engagement rates, reach, conversions, click-through rates, and other relevant metrics to gauge the success of your campaigns.",
+      "Our reporting dashboard presents this data in a clear and visually appealing manner, allowing you to quickly grasp the performance of each campaign and make informed decisions. Identify trends, spot areas of improvement, and capitalize on what works best for your brand.",
+      "With real-time reporting capabilities, you can stay on top of your influencer marketing strategies. Track performance metrics as campaigns unfold, enabling you to make necessary adjustments in real time. Maximize your return on investment by optimizing your strategies based on accurate and up-to-date data.",
+      "Transparency is at the core of our reporting system. We believe in providing you with a comprehensive view of your influencer marketing campaigns. Our tool ensures that you have access to granular data and insights, allowing you to assess the effectiveness of your partnerships and make data-driven decisions with confidence.",
+      "Unlock the power of data and elevate your influencer marketing efforts. Leverage our efficient and comprehensive reporting and analytics features to gain valuable insights, optimize strategies, and achieve exceptional results. Experience the transformative impact of transparency and data-driven decision-making today."
+    ]
+  },
+  {
+    title: "payments",
+    heading: "Convenient Crypto Payments and Airdrops",
+    text: [
+      "In the dynamic world of web 3 and crypto, we recognize the significance of smooth and secure financial transactions. Our platform not only simplifies crypto payments but also offers the added convenience of distributing airdrops to influencers, revolutionizing the way you compensate and incentivize their contributions.",
+      "Gone are the complexities and delays associated with traditional payment methods. Our platform seamlessly integrates crypto payments, allowing you to compensate influencers quickly and securely. Say goodbye to lengthy bank transfers or cumbersome payment gateways. With just a few clicks, you can transfer crypto directly to influencers, ensuring a streamlined and hassle-free process.",
+      "But our platform doesn’t stop at payments. We offer a unique capability to distribute airdrops to influencers. Airdrops are an effective way to reward and incentivize their valuable contributions. With our intuitive interface, you can effortlessly allocate tokens, digital assets, or other crypto-based incentives to influencers who have made a significant impact on your campaigns. Strengthen your partnerships and foster loyalty with influencers through these innovative rewards.",
+      "The convenience of crypto payments and airdrops extends beyond just efficiency. By embracing the power of blockchain technology, you can enjoy enhanced security and transparency. Blockchain ensures tamper-proof transactions and eliminates intermediaries, reducing the risk of fraud and providing a robust and trustless ecosystem for financial transactions.",
+      "Our platform empowers you to stay ahead of the curve by seamlessly integrating the benefits of web 3 and crypto. Embrace the future of finance with convenient crypto payments and airdrops, simplifying compensation and incentivization for influencers. Experience the ease, security, and innovative capabilities of our platform today, and witness the transformative impact on your influencer marketing efforts."
+    ]
+  }
+];

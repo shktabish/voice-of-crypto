@@ -15,7 +15,7 @@ const FAQSection = () => {
     }
 
   return (
-    <div className='bg-white text-black relative' >
+    <div className='bg-white text-black relative' id="faqs" >
         <div className='flex items-center justify-center gap-4 pt-10' >
             <div className='h-1 w-10 bg-accent' />
             <div className='max-md:text-base text-xl font-bold' >FAQs</div>

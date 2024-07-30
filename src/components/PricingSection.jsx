@@ -7,7 +7,7 @@ const PricingSection = () => {
     })
 
   return (
-    <div className='py-10 relative' name="pricing" >
+    <div className='py-10 relative' name="pricing" id="pricing" >
       <div className='mx-12 h-1 w-32 bg-accent my-10' />
       <div className='px-12 my-2 max-sm:text-2xl text-4xl font-bold' >Simple Pricing</div>
       <div className='px-12 my-2 text-accent max-sm:text-2xl text-4xl font-bold' >with no setup fee</div>

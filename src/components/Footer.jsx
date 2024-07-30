@@ -1,9 +1,14 @@
 import { FaFacebook, FaXTwitter, FaInstagram, FaLinkedin } from "react-icons/fa6"
 import { Link } from "react-router-dom"
-import { Link as SmoothLink } from "react-scroll";
+import CustomLink from "../utils/CustomLink";
 
 const Footer = () => {
-    const productFaaturs = ["Discover", "Connect", "Analytics", "Payments"]
+    const productFaaturs = [
+        {title: "Discover", to: "/discover"},
+        {title: "Connect", to: "/connect"},
+        {title: "Analytics", to: "/analytics"},
+        {title: "Payments", to: "/payments"},
+    ]
 
     const quickLinks = [
         {title: "Home", to: "hero"},
@@ -18,13 +23,15 @@ const Footer = () => {
     ]
 
     const productFeaturesList = productFaaturs.map((feature, index) => {
-        return <li key={index} className='max-sm:text-sm text-lg font-medium my-4' >{feature}</li>
+        return <Link to={feature.to} key={index} >
+            <li key={index} className='max-sm:text-sm text-lg font-medium my-4 w-max hover:border-b-2 hover:border-accent' >{feature.title}</li>
+        </Link>
     })
 
     const quickLinksList = quickLinks.map((link, index) => {
-        return <SmoothLink smooth={true} to={link.to} key={index} className="cursor-pointer" >
+        return <CustomLink smooth={true} to={link.to} key={index} className="cursor-pointer" >
             <li className="className='max-sm:text-sm text-lg font-medium my-4 w-max hover:border-b-2 hover:border-accent" >{link.title}</li>
-        </SmoothLink>
+        </CustomLink>
     })
 
     const socialMediaLinksList = socialMediaLinks.map((socialMedia, index) => {

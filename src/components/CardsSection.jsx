@@ -5,12 +5,12 @@ import MarqueeElement from './ui/Marquee'
 const CardsSection = () => {
   return (
     <div>
-        <div className='relative py-36 min-h-screen w-full flex justify-center items-center' >
+        {/* <div className='relative py-36 min-h-screen w-full flex justify-center items-center' >
             <div className="absolute inset-x-0 h-1/2 top-0 bg-white"></div>
             <RockstarCard />
             <img src="./rocket.svg" alt="rocket icon" className='absolute bottom-0 right-8' />
-        </div>
-        <MarqueeElement />
+        </div> */}
+        <MarqueeElement color="bg-white" />
         <div className='pt-32 pb-20 mb-20 w-full flex justify-center' >
             <ConnectCard />
         </div>

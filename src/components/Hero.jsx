@@ -1,12 +1,12 @@
 import { TypeAnimation } from "react-type-animation"
 import Tags from "./ui/Tags"
+import Navbar from "./Navbar"
 
 const Hero = () => {
     const words = ["Discover", "Connect", "Analyze", , "Pay (Beta)"]
 
   return (
-    <div className='min-h-screen' name="hero" >
-        <div className='max-sm:px-6 px-32 py-12' ><img src="./logo.svg" alt="nav-bar logo" className='w-36 h-14'/></div>
+    <div className='min-h-screen' >
         <div className='flex max-lg:flex-col justify-around' >
             <div className="max-lg:w-full w-2/3 max-sm:px-6 max-lg:px-20" >
                 <div className="flex items-center gap-5" >
