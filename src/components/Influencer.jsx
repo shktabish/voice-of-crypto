@@ -1,7 +1,10 @@
 const Influencer = () => {
   return (
     <div className="h-screen w-full grid grid-cols-1 md:grid-cols-2" >
-        <div className="bg-[url('/people_standing.svg')] bg-cover bg-center hidden md:block relative">
+        {/* <div className="bg-[url('one-stop-solution.png')] bg-contain bg-center hidden md:block relative"> */}
+        {/* </div> */}
+        <div className="flex justify-center items-center" >
+          <img src="./one-stop-solution.png" alt="" className="hidden md:block relative" />
         </div>
         <div className="flex flex-col justify-center items-center w-full px-8 relative" >
             <div className="max-w-xl flex flex-col gap-5" >
