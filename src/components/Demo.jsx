@@ -4,7 +4,6 @@ import Button from './ui/Button'
 
 const Demo = () => {
   const { ref, inView } = useInView({
-    triggerOnce: true,
     threshold: 0.1
   })
 
