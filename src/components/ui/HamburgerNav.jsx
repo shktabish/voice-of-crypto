@@ -39,7 +39,7 @@ import CustomLink from "../../utils/CustomLink";
           <Option setOpen={setOpen} text="Analytics" />
         </Link>
         <Link to="/payments">
-          <Option setOpen={setOpen} text="Payments" />
+          <Option setOpen={setOpen} text="Payments* (Beta)" />
         </Link>
         <CustomLink to="#pricing">
           <Option setOpen={setOpen} text="Pricing" />

@@ -253,7 +253,7 @@ export const pagesData = [
   },
   {
     title: "payments",
-    heading: "Convenient Crypto Payments and Airdrops",
+    heading: "Convenient Crypto Payments and Airdrops* (Beta)",
     text: [
       "In the dynamic world of web 3 and crypto, we recognize the significance of smooth and secure financial transactions. Our platform not only simplifies crypto payments but also offers the added convenience of distributing airdrops to influencers, revolutionizing the way you compensate and incentivize their contributions.",
       "Gone are the complexities and delays associated with traditional payment methods. Our platform seamlessly integrates crypto payments, allowing you to compensate influencers quickly and securely. Say goodbye to lengthy bank transfers or cumbersome payment gateways. With just a few clicks, you can transfer crypto directly to influencers, ensuring a streamlined and hassle-free process.",

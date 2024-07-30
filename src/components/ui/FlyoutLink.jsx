@@ -38,7 +38,7 @@ const NavDropDown = () => {
           <Option setOpen={setOpen} text="Analytics" />
         </Link>
         <Link to="/payments">
-          <Option setOpen={setOpen} text="Payments" />
+          <Option setOpen={setOpen} text="Payments* (Beta)" />
         </Link>
       </motion.ul>
     </motion.div>

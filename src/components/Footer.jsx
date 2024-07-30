@@ -7,7 +7,7 @@ const Footer = () => {
         {title: "Discover", to: "/discover"},
         {title: "Connect", to: "/connect"},
         {title: "Analytics", to: "/analytics"},
-        {title: "Payments", to: "/payments"},
+        {title: "Payments* (Beta)", to: "/payments"},
     ]
 
     const quickLinks = [
