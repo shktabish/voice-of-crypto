@@ -3,7 +3,7 @@ import Tags from "./ui/Tags"
 import Navbar from "./Navbar"
 
 const Hero = () => {
-    const words = ["Discover", "Connect", "Analyze", , "Pay (Beta)"]
+    const words = ["Discover", "Connect", "Analyze", , "Pay* (Beta)"]
 
   return (
     <div className='min-h-screen' >

@@ -46,17 +46,17 @@ export const plans = [
 export const web3faq = [
   {
     id: 1,
-    question: "1. How does vitamini works?",
+    question: "1. How does Vitamin I works?",
     answer: "Our AI has already detected your social media profiles. Simply fill out the form with your commercial posting rates and add your BEP20 or ERC 20  wallet addresses for seamless payments. This way, brands can effortlessly discover you, engage your services, and you can efficiently handle brand deals while receiving direct payments through the platform* (Beta)"
   },
   {
     id: 2,
     question: "2. How much does it costs ?",
-    answer: "Vitamini is a platform that prioritizes Web3 Influencers and KOL’s. It operates on a zero up-front cost model, meaning there are no initial expenses. We dont charge any transaction fee for sales from web3 Influencers and KOL’s."
+    answer: "Vitamin I is a platform that prioritizes Web3 Influencers and KOL’s. It operates on a zero up-front cost model, meaning there are no initial expenses. We dont charge any transaction fee for sales from web3 Influencers and KOL’s."
   },
   {
     id: 3,
-    question: "3. What platforms does Vitamini supports?",
+    question: "3. What platforms does Vitamin I supports?",
     answer: "At present, you have the opportunity to showcase your services across a range of platforms including Instagram, TikTok, YouTube, Twitch, Twitter."
   }
 ]
@@ -65,7 +65,7 @@ export const brandfaq = [
   {
     id: 1,
     question: "1. How does vitamin i work?",
-    answer: "Vitamini is a web3 Influencer marketing  tool designed specifically for discovering , connecting and  analysing   Web3 Influencers on twitter, Instagram, TikTok, twitch and  YouTube. Seamlessly explore a wide array of content creators, allowing you to effortlessly find the perfect match."
+    answer: "Vitamin I is a web3 Influencer marketing  tool designed specifically for discovering , connecting and  analysing   Web3 Influencers on twitter, Instagram, TikTok, twitch and  YouTube. Seamlessly explore a wide array of content creators, allowing you to effortlessly find the perfect match."
   },
   {
     id: 2,
@@ -74,13 +74,13 @@ export const brandfaq = [
   },
   {
     id: 3,
-    question: "3. Can Vitamini Manage an Influencer campaign for me?",
+    question: "3. Can Vitamin I Manage an Influencer campaign for me?",
     answer: "Absolutely! If you’re interested in having vitamin i handle the planning and management of an influencer campaign on your behalf, simply reach out to us to initiate the process. We’re here to assist you in getting started."
   },
   {
     id: 4,
-    question: "4. How are influencers vetted before joining vitamini?",
-    answer: "At vitamini, we ensure the authenticity of every web3 influencer listed on our platform through a rigorous identity verification process. Additionally, we conduct thorough audits of their social media presence to detect any indicators of fake followers or engagement. Furthermore, we carefully evaluate their history of past brand collaborations, taking into account their track record in order to maintain a high standard of quality."
+    question: "4. How are influencers vetted before joining Vitamin I?",
+    answer: "At Vitamin I, we ensure the authenticity of every web3 influencer listed on our platform through a rigorous identity verification process. Additionally, we conduct thorough audits of their social media presence to detect any indicators of fake followers or engagement. Furthermore, we carefully evaluate their history of past brand collaborations, taking into account their track record in order to maintain a high standard of quality."
   }
 ]
 
@@ -119,7 +119,7 @@ export const features = [
     icon: "./okay.svg"
   },
   {
-    title: "Convenient Crypto Payments and Airdrops (Beta)",
+    title: "Convenient Crypto Payments and Airdrops* (Beta)",
     description: "Pay influencers using Crypto, NFT or Airdrops",
     icon: "./okay.svg"
   }
@@ -164,7 +164,7 @@ export const featureAccordionData = [
   },
   {
     id: 4,
-    question: "Convenient Crypto Payments and Airdrops (Beta)",
+    question: "Convenient Crypto Payments and Airdrops* (Beta)",
     answer: "Pay Influencers using Crypto, NFT or Airdrops",
     image: "./features/4.webp"
   }
@@ -172,7 +172,7 @@ export const featureAccordionData = [
 
 export const testimonialsData = [
   {
-    text: "This product is unbelievable. Vitamini cuts research time by 90% and makes life so much easier to put everything in perspective. This tool shows the BIGGER PICTURE. I’m just on my 2nd day of discovery. This is industry grade stuff!",
+    text: "This product is unbelievable. Vitamin I cuts research time by 90% and makes life so much easier to put everything in perspective. This tool shows the BIGGER PICTURE. I’m just on my 2nd day of discovery. This is industry grade stuff!",
     salutation: "Best regards.",
     name: "Nicola",
     position: "Marketing Specialist",
@@ -180,7 +180,7 @@ export const testimonialsData = [
     icon: "./testimonials/2.jpeg"
   },
   {
-    text: "We were able to create a globally consistent KPI framework that then made the shift from return on marketing objectives, all the way linking it to return on investment. It's an evolutionary journey and vitamini has been part of it with us!",
+    text: "We were able to create a globally consistent KPI framework that then made the shift from return on marketing objectives, all the way linking it to return on investment. It's an evolutionary journey and Vitamin I has been part of it with us!",
     salutation: "Sincerely.",
     name: "Sampras",
     position: "Digital Strategist",
@@ -188,7 +188,7 @@ export const testimonialsData = [
     icon: "./testimonials/3.jpeg"
   },
   {
-    text: "Vitamini helped us identify the right KOL’s for our token launch and we were able to establish contact with them and run our campaign, saved time and money for us.",
+    text: "Vitamin I helped us identify the right KOL’s for our token launch and we were able to establish contact with them and run our campaign, saved time and money for us.",
     salutation: "Gratefully.",
     name: "Susana",
     position: "Campaign Manager",
@@ -196,7 +196,7 @@ export const testimonialsData = [
     icon: "./testimonials/4.jpeg"
   },
   {
-    text: "Vitamini offers us their strategic expertise in influencer marketing campaign platform. They pack it up nicely in a way that is easy to use, but is still as airtight-secure and reliable as one would expect.",
+    text: "Vitamin I offers us their strategic expertise in influencer marketing campaign platform. They pack it up nicely in a way that is easy to use, but is still as airtight-secure and reliable as one would expect.",
     salutation: "With appreciation.",
     name: "Antonio",
     position: "Content Creator",
@@ -204,7 +204,7 @@ export const testimonialsData = [
     icon: "./testimonials/5.jpeg"
   },
   {
-    text: "Vitamini helped us to increase the number of influencers they engaged with on Twitter by 50%.",
+    text: "Vitamin I helped us to increase the number of influencers they engaged with on Twitter by 50%.",
     salutation: "Warm regards.",
     name: "Donnie Russell",
     position: "Social Media Manager",
