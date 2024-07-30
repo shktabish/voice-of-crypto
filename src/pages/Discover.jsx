@@ -12,7 +12,7 @@ const Discover = () => {
   }
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen" key={pageData.heading} >
       <div className="max-sm:mx-6 max-md:mx-16 mx-28 pb-20">
         <div>Vitamin I {' > '} {pageData.heading}</div>
         <div className="max-sm:text-2xl max-lg:text-3xl text-5xl font-bold text-accent pb-10 pt-5">
