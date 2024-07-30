@@ -23,7 +23,7 @@ const Discover = () => {
             className={`float-start ${isLoading ? 'bg-white/10 animate-pulse' : ''} max-md:mr-5 mr-10 max-md:mb-5 mb-10 max-sm:w-3/5 max-lg:w-2/4 w-2/5`} 
           >
             <img 
-              src="./pages/discover.png" 
+              src={pageData.image} 
               alt="discover image" 
               className='float-start' 
               width="500" 

@@ -5,7 +5,7 @@ const Features = () => {
         return (
             <div key={index} className='flex flex-col items-center gap-4'>
                 <div className="bg-accent rounded-full flex justify-center items-center p-2" style={{ width: '100px', height: '100px' }}>
-                    <img src={feature.icon} alt="icon" className="" />
+                    <img src={feature.icon} alt="icon" className="w-14" />
                 </div>
                 <div className="text-black text-center text-xl font-bold">{feature.title}</div>
                 <div className="text-black text-center text-lg font-medium">{feature.description}</div>
