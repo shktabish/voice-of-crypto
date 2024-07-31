@@ -1,8 +1,9 @@
 const Influencer = () => {
   return (
     <div className="h-screen w-full grid grid-cols-1 md:grid-cols-2" >
-        <div className="bg-[url('./people_standing.svg')] bg-contain bg-center hidden md:block relative">
-        </div>
+        {/* <div className="bg-[url('./people_standing.svg')] bg-contain bg-center hidden md:block relative">
+        </div> */}
+        <img src="./people_standing.svg" alt="people standing" className="h-full object-cover object-center hidden md:block relative" />
         <div className="flex flex-col justify-center items-center w-full px-8 relative" >
             <div className="max-w-xl flex flex-col gap-5" >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 max-sm:w-10 w-20 mt-3" >
