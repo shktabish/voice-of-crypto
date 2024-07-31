@@ -13,7 +13,7 @@ const InfoSection = () => {
                     <div className='text-2xl font-bold' >Unleash the power of AI in influencer marketing with our revolutionary search tool designed for the web 3 and crypto space.</div>
                     <div className='text-lg font-medium mt-8' >Are you tired of spending countless hours manually searching for influencers and struggling to connect with them? Look no further! Our cutting-edge platform is here to simplify the process, saving you time and effort, while delivering exceptional results for your brand</div>
                 </div>
-                <div className='max-lg:w-full flex justify-center' ><img src="./influencer.png" alt="info image" className='max-lg:w-4/5' /></div>
+                <div className='max-lg:w-full flex justify-center' ><img src="./influencer.svg" alt="info image" className='max-lg:w-4/5' /></div>
             </div>
             <InfoCard />
         </div>

@@ -64,7 +64,7 @@ export const web3faq = [
 export const brandfaq = [
   {
     id: 1,
-    question: "1. How does vitamin i work?",
+    question: "1. What is Vitamin i?",
     answer: "Vitamin I is a web3 Influencer marketing  tool designed specifically for discovering , connecting and  analysing   Web3 Influencers on twitter, Instagram, TikTok, twitch and  YouTube. Seamlessly explore a wide array of content creators, allowing you to effortlessly find the perfect match."
   },
   {
