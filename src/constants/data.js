@@ -217,7 +217,7 @@ export const pagesData = [
   {
     title: "discover",
     heading: "Uncover the Perfect Influencers",
-    image: "./pages/1.png",
+    image: "./pages/1.jpg",
     text: [
       "In the ever-evolving world of web 3 and crypto, finding the right influencers for your brand can be a daunting task. That’s where our AI-powered search tool comes in. Powered by state-of-the-art algorithms, our platform revolutionizes the way you discover influencers, making it efficient, precise, and hassle-free.",
       "Our advanced AI algorithms meticulously scan the vast web 3 landscape, sifting through a multitude of influencers to find the perfect match for your brand. Whether you’re targeting micro, macro, or nano influencers, our tool has got you covered. We understand that influencer marketing is not one-size-fits-all, and that’s why we provide a comprehensive range of options to suit your specific needs.",
@@ -231,7 +231,7 @@ export const pagesData = [
   {
     title: "connect",
     heading: "Seamless Connection and Collaboration",
-    image: "./pages/2.png",
+    image: "./pages/2.jpg",
     text: [
       "In today’s fast-paced digital landscape, building connections with influencers is crucial for successful marketing campaigns. Our platform not only streamlines the process of finding the ideal influencers but also ensures seamless communication and collaboration every step of the way.",
       "Gone are the days of manually searching for contact information and sending countless emails. Our platform simplifies the process by enabling you to reach out to influencers directly from within the tool. With just a few clicks, you can initiate conversations, discuss campaign details, and establish a rapport with influencers who align with your brand.",
@@ -244,7 +244,7 @@ export const pagesData = [
   {
     title: "analytics",
     heading: "Efficiency and Effectiveness Reporting",
-    image: "./pages/3.png",
+    image: "./pages/3.jpg",
     text: [
       "In the world of influencer marketing, data-driven decision-making is crucial for success. Our platform offers comprehensive reporting and analytics, empowering you to track and optimize the effectiveness of your campaigns with ease.",
       "Gone are the days of relying on guesswork and assumptions. Our tool provides you with valuable insights and key performance indicators (KPIs) to evaluate the impact of your influencer marketing efforts. Monitor engagement rates, reach, conversions, click-through rates, and other relevant metrics to gauge the success of your campaigns.",
@@ -257,7 +257,7 @@ export const pagesData = [
   {
     title: "payments",
     heading: "Convenient Crypto Payments and Airdrops* (Beta)",
-    image: "./pages/4.png",
+    image: "./pages/4.jpg",
     text: [
       "In the dynamic world of web 3 and crypto, we recognize the significance of smooth and secure financial transactions. Our platform not only simplifies crypto payments but also offers the added convenience of distributing airdrops to influencers, revolutionizing the way you compensate and incentivize their contributions.",
       "Gone are the complexities and delays associated with traditional payment methods. Our platform seamlessly integrates crypto payments, allowing you to compensate influencers quickly and securely. Say goodbye to lengthy bank transfers or cumbersome payment gateways. With just a few clicks, you can transfer crypto directly to influencers, ensuring a streamlined and hassle-free process.",
