@@ -8,9 +8,7 @@ import SmoothScrolling from './components/SmothScrolling.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <SmoothScrolling>
         <App />
-      </SmoothScrolling>
     </BrowserRouter>
   </React.StrictMode>,
 )

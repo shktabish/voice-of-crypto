@@ -18,13 +18,13 @@ const CustomLink = ({ to, children, ...props }) => {
         setTimeout(() => {
           scroller.scrollTo(to.substring(1), {
             smooth: true,
-            duration: 500,
+            duration: 1500,
           });
         }, 50); 
       } else {
         scroller.scrollTo(to.substring(1), {
           smooth: true,
-          duration: 500,
+          duration: 1500,
           offset: +100,
         });
       }
@@ -33,7 +33,7 @@ const CustomLink = ({ to, children, ...props }) => {
 
   if (isSamePage) {
     return (
-      <ScrollLink to={to.substring(1)} smooth={true} duration={500} {...props}>
+      <ScrollLink to={to.substring(1)} smooth={true} duration={1500} {...props}>
         {children}
       </ScrollLink>
     );

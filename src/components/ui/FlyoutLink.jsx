@@ -1,18 +1,33 @@
-import { FiChevronDown, FiEdit, FiPlusSquare } from "react-icons/fi";
+import { FiChevronDown } from "react-icons/fi";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 const NavDropDown = () => {
   const [open, setOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <motion.div
+      ref={dropdownRef}
       animate={open ? "open" : "closed"}
       className="relative"
     >
       <button
-        onClick={() => setOpen(prev => !prev)}
+        onClick={() => setOpen((prev) => !prev)}
         className="flex justify-end items-center gap-2 px-3 py-2 rounded-md font-Sofia bg-transparent"
       >
         <div>Product Features</div>
