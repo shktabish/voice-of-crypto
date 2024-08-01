@@ -5,7 +5,7 @@ const AccordionItem = ({ question, answer, isOpen, onClick }) => (
   <div className={`${isOpen ? "bg-accent" : "bg-[#F5F5F5]"} rounded-xl my-5 border border-accent`}>
     <div
       className="w-full max-sm:px-6 px-12 max-sm:py-3 py-6 text-left flex justify-between items-center cursor-pointer"
-      onClick={onClick}
+      onClick={onClick} 
     >
       <span className='max-md:text-lg text-xl font-bold' >{question}</span>
       <span>{isOpen ? "-" : "+"}</span>
