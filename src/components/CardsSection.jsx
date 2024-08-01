@@ -48,15 +48,15 @@ export const RockstarCard = () => {
 
 export const ConnectCard = () => {
     return (
-      <div className='w-4/5 min-h-[350px] border border-accent rounded-3xl flex justify-between gap-10' >
-          <div className='flex flex-col justify-center w-[35rem] gap-10 pl-10 max-sm:p-4' >
+      <div className='w-4/5 min-h-[350px] border border-accent rounded-3xl flex max-lg:flex-col-reverse max-lg:items-center max-lg:py-12 justify-between gap-10' >
+          <div className='flex flex-col justify-center max-sm:w-[95%] w-4/5 gap-10 pl-10 max-sm:p-4' >
             <div className='max-sm:text-2xl max-lg:text-4xl max-xl:text-3xl text-5xl font-bold' >Let’s <span className='text-accent' >Connect</span> there</div>
-            <div className='max-sm:text-base max-lg:text-xl max-xl:text-lg text-2xl font-bold' >Are you a web3 influencer and would like to get listed on our platform</div>
+            <div className='max-sm:text-base max-lg:text-xl max-xl:text-lg w-[90%] text-2xl font-bold text-wrap' >Are you a web3 influencer and would like to get listed on our platform</div>
             <Button text="Apply Now" link="https://docs.google.com/forms/d/e/1FAIpQLSfsd-c9bhaiHNVgqJpZFub4B-0NmTkmuPmS9SneVTyq5AHuEA/viewform" />
           </div>
-          <div className='max-lg:hidden h-full aspect-square bg-accent rounded-3xl relative' >
-            <img src="./rabbit.svg" alt="rabbit icon" className='absolute bottom-16 -right-10 scale-[1.4]' />
-            <img src="./coin.svg" alt="coin icon" className='absolute bottom-0 left-0 w-28' />
+          <div className='h-full max-lg:w-4/5 w-[28rem] aspect-square bg-accent rounded-3xl relative' >
+            <img src="./rabbit.svg" alt="rabbit icon" className='absolute max-lg:bottom-0 bottom-16 -right-10   max-lg:scale-100 scale-[1.4]' />
+            <img src="./coin.svg" alt="coin icon" className='absolute bottom-0 left-0 max-sm:w-20 w-28' />
           </div>
       </div>
     )
