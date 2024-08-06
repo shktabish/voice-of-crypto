@@ -22,7 +22,16 @@ const HowItWorks = () => {
         <div className='hidden bg-white relative w-full h-1/2 py-10 max-sm:flex flex-col justify-center items-center'>
             <div className="absolute top-0 left-0 w-full h-full bg-accent clip-polygon" />
             <div className='text-black max-sm:text-lg text-5xl font-bold relative z-50' >How it works</div>
-            <img src="./tablet.svg" alt="tablet" className='relative z-50 w-4/5' />
+            {/* <img src="./tablet.svg" alt="tablet" className='relative z-50 w-4/5' /> */}
+            <iframe
+              src="https://www.youtube.com/embed/0q0SrCj-gYI?si=CUooY85d4wz284Lt"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              className="relative z-50 max-sm:py-3 max-sm:px-2 py-9 px-4 rounded-2xl bg-black w-4/5 aspect-video"
+            ></iframe>
             <img src="./box.svg" alt="box icon" className='absolute w-16 -top-10 right-12' />
             <img src="./character.svg" alt="character icon" className='absolute bottom-4 -left-2 w-12' />
         </div>
