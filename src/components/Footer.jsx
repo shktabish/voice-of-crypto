@@ -13,7 +13,7 @@ const Footer = () => {
     const quickLinks = [
         {title: "Home", to: "hero"},
         {title: "Pricing", to: "pricing"},
-        {title: "In Media", to: "https://voiceofcrypto.online/press-release/voice-of-crypto-impulzeai-partnership"},
+        // {title: "In Media", to: "https://voiceofcrypto.online/press-release/voice-of-crypto-impulzeai-partnership"},
     ]
 
     const socialMediaLinks = [
