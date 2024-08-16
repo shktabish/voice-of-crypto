@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link to="/" ><img src="./logo.svg" alt="nav-bar logo" className='w-36 h-14'/></Link>
         <div className='flex items-center gap-10 max-lg:hidden' >
             <NavDropDown />
-            <CustomLink to="#pricing" ><div className='cursor-pointer hover:border-b-2 hover:border-accent py-2' >Pricing</div></CustomLink>
+            {/* <CustomLink to="#pricing" ><div className='cursor-pointer hover:border-b-2 hover:border-accent py-2' >Pricing</div></CustomLink> */}
             <CustomLink to="#faqs" ><div className='cursor-pointer hover:border-b-2 hover:border-accent py-2' >Faqs</div></CustomLink>
             <Button />
         </div>

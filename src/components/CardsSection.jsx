@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { profiles } from './../constants/data'
 import Button from './ui/Button'
 import MarqueeElement from './ui/Marquee'
@@ -5,12 +6,12 @@ import MarqueeElement from './ui/Marquee'
 const CardsSection = () => {
   return (
     <div>
-        {/* <div className='relative py-36 min-h-screen w-full flex justify-center items-center' >
+        <div className='relative py-36 min-h-screen w-full flex justify-center items-center' >
             <div className="absolute inset-x-0 h-1/2 top-0 bg-white"></div>
             <RockstarCard />
             <img src="./rocket.svg" alt="rocket icon" className='absolute bottom-0 right-8' />
-        </div> */}
-        <MarqueeElement color="bg-white" />
+        </div>
+        <MarqueeElement color="bg-black" />
         <div className='pt-32 pb-20 mb-20 w-full flex justify-center' >
             <ConnectCard />
         </div>
@@ -23,25 +24,36 @@ export default CardsSection
 export const RockstarCard = () => {
     const profilesList = profiles.map((profile, index) => {
         return (
-            <div key={index} className='flex flex-col items-center'>
-                <img src={profile.profile} alt={profile.name} className='w-28 h-28 rounded-full border-[12px] border-accent' />
-                <div className='text-xl font-bold mt-5' >{profile.name}</div>
-                <div className='italic mt-2' >{profile.position}</div>
-            </div>
+            <>
+              <div key={index} className='flex flex-col items-center'>
+                  <img src={profile.profile} alt={profile.name} className='w-28 h-28 rounded-full border-[12px] border-accent' />
+                  <div className='text-xl font-bold mt-5' >{profile.name}</div>
+                  {/* <div className='italic mt-2' >{profile.position}</div> */}
+              </div>
+            </>
         )
     })
 
     return (
       <div className='w-4/5 bg-[#F5F5F5] text-black rounded-3xl flex max-lg:flex-col max-lg:gap-10 justify-around items-center relative z-50' >
-        <div className='max-lg:flex max-lg:flex-col max-lg:gap-4 px-6'>
-            <div className='text-2xl font-bold max-lg:text-center pt-10' >Team</div>
-            <div className='text-5xl font-bold max-lg:text-center' >Rockstars</div>
+        <div className='max-lg:flex max-lg:flex-col max-sm:gap-0 max-lg:gap-4 px-6'>
+            <div className='max-sm:text-lg text-2xl font-bold max-lg:text-center pt-10' >Join Us at Vitamini’s KOL Awards Night</div>
+            <div className='max-sm:text-lg text-2xl font-bold max-lg:text-center' >in Singapore on 16th September 2024</div>
             <div className='relative mt-10 max-lg:hidden'>
                 <img src="buuble.svg" alt="bubbles" className='absolute top-0 -left-10' />
                 <img src="rockTeddy.svg" alt="rockstar teddy" className='relative z-50' />
             </div>
         </div>
-        <div className='flex flex-wrap justify-center items-center max-sm:gap-8 gap-16 py-6' >{profilesList}</div>
+        <div className='flex flex-col gap-4 pb-8' >
+          <div className='flex flex-wrap justify-center items-center max-sm:gap-8 gap-16 py-6' >{profilesList}</div>
+          <div className='flex flex-wrap max-sm:justify-center text-lg max-sm:ml-4' >
+            <div className='ml-1 mb-3' >and many more</div> 
+            <Link to="https://lu.ma/0gj3tf66" >
+              <span className='bg-[#A4ED00] px-3 py-2 rounded-full font-semibold cursor-pointer max-sm:ml-0 ml-4 text-nowrap' >Book your tickets now
+              </span>
+            </Link>
+          </div>
+        </div>
       </div>
     )
 }

@@ -127,19 +127,19 @@ export const features = [
 
 export const profiles = [
   {
-    name: "Mark Ray",
+    name: "Evan Luthra",
     position: "Founder and CEO",
-    profile: "./profile/1.svg"
+    profile: "./profile/a.jpg"
   },
   {
-    name: "John Smith",
+    name: "Bit Blond",
     position: "Co-founder and CFO",
-    profile: "./profile/2.svg"
+    profile: "./profile/b.jpg"
   },
   {
-    name: "Lisa Lawrence",
+    name: "Sumit Kapoor",
     position: "Co-founder and CTO",
-    profile: "./profile/3.svg"
+    profile: "./profile/c.jpg"
   }
 ]
 

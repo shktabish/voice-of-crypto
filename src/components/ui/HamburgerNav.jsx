@@ -54,9 +54,9 @@ const HamburgerNavbar = () => {
         <Link to="/payments">
           <Option setOpen={setOpen} text="Payments* (Beta)" />
         </Link>
-        <CustomLink to="#pricing">
+        {/* <CustomLink to="#pricing">
           <Option setOpen={setOpen} text="Pricing" />
-        </CustomLink>
+        </CustomLink> */}
         <CustomLink to="#faqs">
           <Option setOpen={setOpen} text="Faqs" />
         </CustomLink>

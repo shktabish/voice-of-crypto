@@ -17,10 +17,10 @@ const Footer = () => {
     ]
 
     const socialMediaLinks = [
-        {icon: <FaFacebook className='text-2xl font-medium my-4 fill-accent' />, link: "https://www.facebook.com/people/Voice-Of-Crypto-VOC/100083250516435/"},
-        {icon: <FaXTwitter className='text-2xl font-medium my-4 fill-accent' />, link: "https://x.com/VoiceofCrypto2"},
-        {icon: <FaInstagram className='text-2xl font-medium my-4 fill-accent' />, link: "https://www.instagram.com/voiceof.crypto/"},
-        {icon: <FaLinkedin className='text-2xl font-medium my-4 fill-accent' />, link: "https://www.linkedin.com/company/voice-of-crypto/"}
+        // {icon: <FaFacebook className='text-2xl font-medium my-4 fill-accent' />, link: "https://www.facebook.com/people/Voice-Of-Crypto-VOC/100083250516435/"},
+        {icon: <FaXTwitter className='text-2xl font-medium my-4 fill-accent' />, link: "https://x.com/VitaminI_VOC?t=MsMlFvb2qu9sP0jiQIDBIQ&s=08"},
+        // {icon: <FaInstagram className='text-2xl font-medium my-4 fill-accent' />, link: "https://www.instagram.com/voiceof.crypto/"},
+        // {icon: <FaLinkedin className='text-2xl font-medium my-4 fill-accent' />, link: "https://www.linkedin.com/company/voice-of-crypto/"}
     ]
 
     const productFeaturesList = productFaaturs.map((feature, index) => {
@@ -55,9 +55,9 @@ const Footer = () => {
                 <ul className='list-none mt-8' >{quickLinksList}</ul>
             </div>
             <div>
-                <div className='text-xl font-bold text-accent' >Parent Company</div>
-                <img src="./logo2.svg" alt="voice of crypto logo" className='my-4' />
-                <div className="flex gap-3" >{socialMediaLinksList}</div>
+                <div className='text-xl font-bold text-accent' >Social Media</div>
+                {/* <img src="./logo2.svg" alt="voice of crypto logo" className='my-4' /> */}
+                <div className="flex gap-3 mt-4" >{socialMediaLinksList}</div>
             </div>
         </div>
         <div className="max-sm:mx-6 max-sm:text-sm max-md:mx-16 mx-28 py-3" >Copyright © 2024 Vitamin I. All Rights Reserved</div>
