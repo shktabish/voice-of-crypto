@@ -43,7 +43,7 @@ const Footer = () => {
     <>
         <div className='max-sm:mx-6 max-md:mx-16 mx-28 py-14 max-md:grid max-md:grid-cols-2 flex gap-8 xl:gap-24 border-y-2 border-accent'>
             <div className='max-w-[26rem] max-sm:col-span-2' >
-                <img src="./logo.svg" alt="logo" />
+                <img src="./Vitamin.png" alt="logo" className="w-32 -my-8" />
                 <p className="max-sm:text-sm mt-4" >Vitamin I is a cutting-edge product developed by Voice of Crypto, a revolutionary decentralized media collective dedicated to transforming the landscape of media accessibility and reliability within the Web 3 space</p>
             </div>
             <div>
