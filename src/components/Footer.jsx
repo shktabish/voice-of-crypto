@@ -19,7 +19,7 @@ const Footer = () => {
     const socialMediaLinks = [
         // {icon: <FaFacebook className='text-2xl font-medium my-4 fill-accent' />, link: "https://www.facebook.com/people/Voice-Of-Crypto-VOC/100083250516435/"},
         {icon: <FaXTwitter className='text-2xl font-medium my-4 fill-accent' />, link: "https://x.com/VitaminI_VOC?t=MsMlFvb2qu9sP0jiQIDBIQ&s=08"},
-        // {icon: <FaInstagram className='text-2xl font-medium my-4 fill-accent' />, link: "https://www.instagram.com/voiceof.crypto/"},
+        {icon: <FaInstagram className='text-2xl font-medium my-4 fill-accent' />, link: "https://www.instagram.com/vitamini__voc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="},
         // {icon: <FaLinkedin className='text-2xl font-medium my-4 fill-accent' />, link: "https://www.linkedin.com/company/voice-of-crypto/"}
     ]
 

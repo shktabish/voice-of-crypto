@@ -37,8 +37,8 @@ export const RockstarCard = () => {
     return (
       <div className='w-4/5 bg-[#F5F5F5] text-black rounded-3xl flex max-lg:flex-col max-lg:gap-10 justify-around items-center relative z-50' >
         <div className='max-lg:flex max-lg:flex-col max-sm:gap-0 max-lg:gap-4 px-6'>
-            <div className='max-sm:text-lg text-2xl font-bold max-lg:text-center pt-10' >Join Us at Vitamini’s KOL Awards Night</div>
-            <div className='max-sm:text-lg text-2xl font-bold max-lg:text-center' >in Singapore on 16th September 2024</div>
+            <div className='max-sm:text-md text-[1.2rem] 2xl:text-[1.4rem] font-bold max-lg:text-center pt-10' >Join Us at Vitamini’s x Threeway Studio x CoinBrit</div>
+            <div className='max-sm:text-md text-[1.2rem] 2xl:text-[1.4rem] font-bold max-lg:text-center' >KOL Awards Night in Singapore on 16th September 2024</div>
             <div className='relative mt-10 max-lg:hidden'>
                 <img src="buuble.svg" alt="bubbles" className='absolute top-0 -left-10' />
                 <img src="rockTeddy.svg" alt="rockstar teddy" className='relative z-50' />
@@ -64,7 +64,7 @@ export const ConnectCard = () => {
           <div className='flex flex-col justify-center max-sm:w-[95%] w-4/5 gap-10 pl-10 max-sm:p-4' >
             <div className='max-sm:text-2xl max-lg:text-4xl max-xl:text-3xl text-5xl font-bold' >Let’s <span className='text-accent' >Connect</span> there</div>
             <div className='max-sm:text-base max-lg:text-xl max-xl:text-lg w-[90%] text-2xl font-bold text-wrap' >Are you a web3 influencer and would like to get listed on our platform</div>
-            <Button text="Apply Now" link="https://docs.google.com/forms/d/e/1FAIpQLSfsd-c9bhaiHNVgqJpZFub4B-0NmTkmuPmS9SneVTyq5AHuEA/viewform" />
+            <Button text="Apply Now" link="https://9yo48n4voq3.typeform.com/to/o1WbNNKt" />
           </div>
           <div className='h-full max-lg:w-4/5 w-[28rem] aspect-square bg-accent rounded-3xl relative' >
             <img src="./rabbit.svg" alt="rabbit icon" className='absolute max-lg:bottom-0 bottom-16 -right-10   max-lg:scale-100 scale-[1.4]' />

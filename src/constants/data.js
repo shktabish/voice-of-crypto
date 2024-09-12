@@ -128,18 +128,18 @@ export const features = [
 export const profiles = [
   {
     name: "Evan Luthra",
-    position: "Founder and CEO",
+    position: "Co-founder and CTO",
     profile: "./profile/a.jpg"
   },
   {
-    name: "Bit Blond",
-    position: "Co-founder and CFO",
-    profile: "./profile/b.jpg"
+    name: "Carl Runefelt",
+    position: "Founder and CEO",
+    profile: "./profile/carl.jpg"
   },
   {
-    name: "Sumit Kapoor",
-    position: "Co-founder and CTO",
-    profile: "./profile/c.jpg"
+    name: "Eunice D. Wong",
+    position: "Co-founder and CFO",
+    profile: "./profile/Eunice.jpg"
   }
 ]
 
