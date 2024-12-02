@@ -23,7 +23,7 @@ export default function Home() {
       <HowItWorks />
       <Influencer />
       <FeatureAccordion />
-      <PricingSection />
+      {/* <PricingSection /> */}
       <Testimonials />
       <FAQSection />
       <CardsSection />
