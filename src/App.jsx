@@ -13,7 +13,7 @@ export default function App() {
             <Route path="/:title" element={<Discover />} />
           </Routes>
       <Footer /> */}
-      <div className="h-full w-full flex justify-center items-center" >
+      <div className="h-screen w-full flex justify-center items-center" >
         Side Under Maintenance 
       </div>
     </>
