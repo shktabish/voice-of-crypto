@@ -7,12 +7,15 @@ import Discover from "./pages/Discover";
 export default function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/:title" element={<Discover />} />
           </Routes>
-      <Footer />
+      <Footer /> */}
+      <div className="h-full w-full flex justify-center items-center" >
+        Side Under Maintenance 
+      </div>
     </>
   )
 }
